@@ -2,7 +2,7 @@
 <h1 align="center">👋 Hey there, I'm RamyaShree H P</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hruthikbg29/Hruthikbg29/main/typing-multicolor.svg" />
+  <img src="https://github.com/ramyashreehp92/ramyashree/blob/main/typing-multicolor.svg" />
 </p>
 
 
