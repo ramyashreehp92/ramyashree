@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="80" viewBox="0 0 1000 80">
+  <style><![CDATA[
+    .t {
+      font-family: "Fira Code", monospace;
+      font-size: 50px;
+      font-weight: 800;
+    }
+    text { opacity: 0; animation: swap 10s linear infinite; } 
+    text:nth-child(2) { animation-delay: 0s; }
+    text:nth-child(3) { animation-delay: 2s; }
+    text:nth-child(4) { animation-delay: 4s; }
+    text:nth-child(5) { animation-delay: 6s; }
+    text:nth-child(6) { animation-delay: 8s; }
+    @keyframes swap {
+      0%, 16% { opacity: 1; }
+      20%,100% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 1s infinite;
+      font-family: "Fira Code", monospace;
+      font-size: 30px;
+      font-weight: 700;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+  ]]></style>
+  <rect width="100%" height="100%" fill="transparent"/>
+  <text x="20" y="52" class="t" fill="#1E90FF" align="center"> 🧑‍💻 Java FullStack Developer</text>
+  <text x="20" y="52" class="t" fill="#FFA500" align="center">📄 Web Technologies</text>
+  <text x="20" y="52" class="t" fill="#32CD32" align="center">🗄️ MySql</text>
+  <text x="20" y="52" class="t" fill="#FF1493" align="center">🧠 Data Structures and Algorithms</text>
+  <text x="20" y="55" class="t" fill="#4B0082" align="center">💡 Active Learner</text>
+  <text x="950" y="52" class="cursor">|</text>
+</svg>
